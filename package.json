@@ -1,0 +1,30 @@
+{
+  "name": "swissgrid_reframe",
+  "version": "0.1.0",
+  "description": "Transform between the Swiss projected coordinate systems (LV03 and LV95).",
+  "type": "module",
+  "main": "dist/swissgrid_reframe.js",
+  "exports": "./dist/swissgrid_reframe.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rkaravia/swissgrid_reframe"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup --config",
+    "test": "node --no-warnings --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "author": "Roman Karavia",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "devDependencies": {
+    "@rollup/plugin-buble": "^0.21.3",
+    "@rollup/plugin-dsv": "^2.0.3",
+    "@rollup/plugin-json": "^4.1.0",
+    "d3-dsv": "^3.0.1",
+    "jest": "^28.1.3",
+    "rollup": "^2.77.2",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
