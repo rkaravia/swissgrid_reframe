@@ -1,6 +1,6 @@
 {
   "name": "swissgrid_reframe",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Transform between the Swiss projected coordinate systems (LV03 and LV95).",
   "type": "module",
   "main": "dist/swissgrid_reframe.js",
